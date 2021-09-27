@@ -12,6 +12,7 @@ import java.sql.SQLException;
 import java.util.List;
 
 @Repository
+
 public class RsvpDaoJdbcTemplateImpl implements RsvpDao {
 
     private static final String INSERT_RSVP =
